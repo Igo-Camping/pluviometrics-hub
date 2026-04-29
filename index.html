@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta
     http-equiv="Content-Security-Policy"
-    content="default-src 'self'; style-src 'self'; img-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'"
+    content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self'; img-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'"
   >
   <meta name="referrer" content="strict-origin-when-cross-origin">
   <meta
@@ -13,22 +13,35 @@
     content="Pluviometrics is a rainfall intelligence platform for atmospheric, stormwater, and legacy rainfall analysis tools."
   >
   <title>Pluviometrics</title>
+  <script>
+    try {
+      if (localStorage.getItem('pluviometricsTheme') === 'dark') {
+        document.documentElement.dataset.theme = 'dark';
+      }
+    } catch (error) {}
+  </script>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <main class="page-shell">
     <header class="site-header" aria-labelledby="page-title">
-      <img
-        class="site-header__logo"
-        src="Assets/Logos/PLUVIOMETRICS.png"
-        alt="Pluviometrics"
-        width="520"
-        height="160"
-      >
-      <div class="site-header__text">
-        <h1 id="page-title">Pluviometrics</h1>
-        <p>Rainfall intelligence platform</p>
+      <div class="site-header__brand">
+        <img
+          class="site-header__logo"
+          src="Assets/Logos/PLUVIOMETRICS.png"
+          alt="Pluviometrics"
+          width="520"
+          height="160"
+        >
+        <div class="site-header__text">
+          <h1 id="page-title">Pluviometrics</h1>
+          <p>Rainfall intelligence platform</p>
+        </div>
       </div>
+      <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Switch to dark mode">
+        <span class="theme-toggle__icon" aria-hidden="true">☾</span>
+        <span class="theme-toggle__text">Dark</span>
+      </button>
     </header>
 
     <section class="product-grid" aria-label="Pluviometrics products">
@@ -78,5 +91,37 @@
       </a>
     </section>
   </main>
+  <script>
+    (function () {
+      var storageKey = 'pluviometricsTheme';
+      var toggle = document.getElementById('theme-toggle');
+      var icon = toggle ? toggle.querySelector('.theme-toggle__icon') : null;
+      var label = toggle ? toggle.querySelector('.theme-toggle__text') : null;
+
+      function applyTheme(theme) {
+        var isDark = theme === 'dark';
+        if (isDark) {
+          document.documentElement.dataset.theme = 'dark';
+        } else {
+          delete document.documentElement.dataset.theme;
+        }
+        if (icon) icon.textContent = isDark ? '☀' : '☾';
+        if (label) label.textContent = isDark ? 'Light' : 'Dark';
+        if (toggle) toggle.setAttribute('aria-label', isDark ? 'Switch to light mode' : 'Switch to dark mode');
+      }
+
+      applyTheme(document.documentElement.dataset.theme === 'dark' ? 'dark' : 'light');
+
+      if (toggle) {
+        toggle.addEventListener('click', function () {
+          var nextTheme = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
+          applyTheme(nextTheme);
+          try {
+            localStorage.setItem(storageKey, nextTheme);
+          } catch (error) {}
+        });
+      }
+    }());
+  </script>
 </body>
 </html>
