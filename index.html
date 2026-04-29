@@ -39,7 +39,7 @@
         </div>
       </div>
       <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Switch to dark mode">
-        <span class="theme-toggle__icon" aria-hidden="true">☾</span>
+        <span class="theme-toggle__icon" aria-hidden="true">&#9790;</span>
         <span class="theme-toggle__text">Dark</span>
       </button>
     </header>
@@ -105,7 +105,7 @@
         } else {
           delete document.documentElement.dataset.theme;
         }
-        if (icon) icon.textContent = isDark ? '☀' : '☾';
+        if (icon) icon.textContent = isDark ? '\u2600' : '\u263e';
         if (label) label.textContent = isDark ? 'Light' : 'Dark';
         if (toggle) toggle.setAttribute('aria-label', isDark ? 'Switch to light mode' : 'Switch to dark mode');
       }
