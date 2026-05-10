@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none" stroke="#1f7a8c" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+  <title>Pluviometrics — Drop holding a hydrograph (intelligence inside rainfall)</title>
+  <path d="M 200 70 C 110 170, 110 295, 200 295 C 290 295, 290 170, 200 70 Z"/>
+  <line x1="130" y1="250" x2="270" y2="250" stroke-width="3"/>
+  <path d="M 130 250 C 165 250, 175 180, 200 175 C 225 170, 235 250, 270 250" stroke-width="5"/>
+</svg>

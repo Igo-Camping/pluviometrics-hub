@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none" stroke="#1f7a8c" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+  <title>Pluvio Stormgauge — Pipe outflow</title>
+  <circle cx="155" cy="200" r="85" stroke-width="8"/>
+  <circle cx="155" cy="200" r="58" stroke-width="3"/>
+  <path d="M 220 175 C 270 175, 290 165, 335 160" stroke-width="5"/>
+  <path d="M 225 200 C 285 200, 315 195, 360 195" stroke-width="7"/>
+  <path d="M 220 225 C 270 225, 290 235, 335 240" stroke-width="5"/>
+</svg>

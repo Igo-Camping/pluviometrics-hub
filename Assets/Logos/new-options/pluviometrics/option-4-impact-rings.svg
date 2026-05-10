@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none" stroke="#1f7a8c" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+  <title>Pluviometrics — Drop impact rings</title>
+  <path d="M 200 50 C 175 85, 175 130, 200 130 C 225 130, 225 85, 200 50 Z"/>
+  <ellipse cx="200" cy="280" rx="40" ry="14" stroke-width="6"/>
+  <ellipse cx="200" cy="280" rx="80" ry="28" stroke-width="4"/>
+  <ellipse cx="200" cy="280" rx="125" ry="44" stroke-width="3"/>
+  <ellipse cx="200" cy="280" rx="170" ry="60" stroke-width="2"/>
+</svg>

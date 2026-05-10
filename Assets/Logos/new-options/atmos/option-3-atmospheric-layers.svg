@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none" stroke="#1f7a8c" stroke-width="4" stroke-linecap="round">
+  <title>Pluvio Atmos — Atmospheric layers (cross-section)</title>
+  <path d="M 40 320 C 140 310, 260 310, 360 320" stroke-width="7"/>
+  <path d="M 40 270 C 140 263, 260 263, 360 270" stroke-width="5"/>
+  <path d="M 40 220 C 140 215, 260 215, 360 220" stroke-width="4"/>
+  <path d="M 40 170 C 140 167, 260 167, 360 170" stroke-width="3"/>
+  <path d="M 40 120 C 140 118, 260 118, 360 120" stroke-width="2"/>
+  <circle cx="200" cy="70" r="9" fill="#1f7a8c" stroke="none"/>
+</svg>

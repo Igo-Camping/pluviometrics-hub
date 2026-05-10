@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none" stroke="#1f7a8c" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+  <title>Pluvio Atmos — Cyclone (satellite view)</title>
+  <circle cx="200" cy="200" r="20" stroke-width="5"/>
+  <path d="M 70 120 C 140 95, 220 110, 245 165 C 258 195, 240 215, 220 215"/>
+  <path d="M 330 280 C 260 305, 180 290, 155 235 C 142 205, 160 185, 180 185"/>
+  <path d="M 90 260 C 105 295, 135 320, 165 330" stroke-width="4"/>
+  <path d="M 310 140 C 295 105, 265 80, 235 70" stroke-width="4"/>
+</svg>

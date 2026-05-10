@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none" stroke="#1f7a8c" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+  <title>Pluviometrics — Drop in precision target</title>
+  <circle cx="200" cy="200" r="140" stroke-width="3"/>
+  <circle cx="200" cy="200" r="90" stroke-width="3"/>
+  <line x1="40" y1="200" x2="100" y2="200" stroke-width="3"/>
+  <line x1="300" y1="200" x2="360" y2="200" stroke-width="3"/>
+  <line x1="200" y1="40" x2="200" y2="100" stroke-width="3"/>
+  <line x1="200" y1="300" x2="200" y2="360" stroke-width="3"/>
+  <path d="M 200 145 C 170 180, 170 235, 200 235 C 230 235, 230 180, 200 145 Z" stroke-width="6"/>
+</svg>

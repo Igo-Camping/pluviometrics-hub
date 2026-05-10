@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none" stroke="#1f7a8c" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+  <title>Pluvio Atmos — Forecast cone (satellite observation expanding over horizon)</title>
+  <path d="M 50 320 C 140 295, 260 295, 350 320" stroke-width="7"/>
+  <path d="M 110 280 A 110 110 0 0 1 290 280" stroke-width="6"/>
+  <path d="M 80 270 A 150 150 0 0 1 320 270" stroke-width="4"/>
+  <path d="M 50 260 A 200 200 0 0 1 350 260" stroke-width="3"/>
+  <circle cx="200" cy="100" r="9" fill="#1f7a8c" stroke="none"/>
+  <line x1="200" y1="115" x2="200" y2="240" stroke-width="2" stroke-dasharray="5 6"/>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none" stroke="#1f7a8c" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+  <title>Pluviometrics — Hyetograph (rainfall intensity bars)</title>
+  <line x1="100" y1="280" x2="100" y2="252" stroke-width="16"/>
+  <line x1="140" y1="280" x2="140" y2="220" stroke-width="16"/>
+  <line x1="180" y1="280" x2="180" y2="158" stroke-width="16"/>
+  <line x1="220" y1="280" x2="220" y2="120" stroke-width="16"/>
+  <line x1="260" y1="280" x2="260" y2="180" stroke-width="16"/>
+  <line x1="300" y1="280" x2="300" y2="240" stroke-width="16"/>
+  <line x1="80" y1="290" x2="320" y2="290" stroke-width="4"/>
+  <circle cx="180" cy="100" r="6" fill="#1f7a8c" stroke="none"/>
+  <circle cx="220" cy="78" r="7" fill="#1f7a8c" stroke="none"/>
+  <circle cx="260" cy="100" r="6" fill="#1f7a8c" stroke="none"/>
+</svg>

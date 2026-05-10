@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Logo options — review sheet</title>
+<style>
+  :root {
+    --ink: oklch(0.22 0.02 220);
+    --paper: oklch(0.985 0.003 220);
+    --rule: oklch(0.88 0.005 220);
+    --muted: oklch(0.55 0.01 220);
+    --brand: #1f7a8c;
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font: 400 14px/1.4 ui-sans-serif, -apple-system, "Segoe UI", system-ui;
+    -webkit-font-smoothing: antialiased;
+  }
+  header {
+    padding: 36px 48px 12px;
+    border-bottom: 1px solid var(--rule);
+  }
+  h1 {
+    margin: 0 0 4px;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: -0.01em;
+  }
+  header p {
+    margin: 0;
+    color: var(--muted);
+    font-size: 13px;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0;
+    padding: 0 36px 48px;
+  }
+  .col-head {
+    padding: 24px 16px 8px;
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--ink);
+    border-bottom: 1px solid var(--rule);
+  }
+  .col-head .tag {
+    display: block;
+    margin-top: 4px;
+    font-weight: 400;
+    font-size: 11px;
+    letter-spacing: 0.04em;
+    text-transform: none;
+    color: var(--muted);
+  }
+  .cell {
+    padding: 24px 16px;
+    border-bottom: 1px solid var(--rule);
+    border-right: 1px solid var(--rule);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+  .cell:nth-child(3n) { border-right: 0; }
+  .cell.pick {
+    background: oklch(0.97 0.012 200);
+  }
+  .mark {
+    width: 100%;
+    max-width: 220px;
+    aspect-ratio: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .mark svg { width: 100%; height: 100%; }
+  .row {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+    font-size: 12px;
+  }
+  .num {
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+    color: var(--brand);
+  }
+  .name {
+    color: var(--ink);
+  }
+  .tiny {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin-top: 4px;
+  }
+  .tiny svg { width: 32px; height: 32px; opacity: 0.85; }
+  .tiny .x { width: 20px; height: 20px; }
+  .tiny-label {
+    font-size: 10px;
+    color: var(--muted);
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+  footer {
+    padding: 24px 48px 48px;
+    color: var(--muted);
+    font-size: 12px;
+    border-top: 1px solid var(--rule);
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Logo options — Pluviometrics, Atmos, Stormgauge</h1>
+  <p>Each column shows seven mark concepts. Options 1–6 are guided by the tool's purpose; option 7 is a creative pick.</p>
+</header>
+
+<div class="grid">
+  <div class="col-head">Pluviometrics<span class="tag">Precision rainfall intelligence</span></div>
+  <div class="col-head">Pluvio Atmos<span class="tag">Precision atmospheric nowcasting</span></div>
+  <div class="col-head">Pluvio Stormgauge<span class="tag">Precision stormwater analysis</span></div>
+
+  <!-- Row 1 -->
+  <div class="cell"><div class="mark"><object data="pluviometrics/option-1-drops-formation.svg" type="image/svg+xml"></object></div><div class="row"><span class="num">01</span><span class="name">Drops in formation</span></div></div>
+  <div class="cell"><div class="mark"><object data="atmos/option-1-isobars.svg" type="image/svg+xml"></object></div><div class="row"><span class="num">01</span><span class="name">Isobars</span></div></div>
+  <div class="cell"><div class="mark"><object data="stormgauge/option-1-pipe-outflow.svg" type="image/svg+xml"></object></div><div class="row"><span class="num">01</span><span class="name">Pipe outflow</span></div></div>
+
+  <!-- Row 2 -->
+  <div class="cell"><div class="mark"><object data="pluviometrics/option-2-hydrograph-curve.svg" type="image/svg+xml"></object></div><div class="row"><span class="num">02</span><span class="name">Drop over hydrograph</span></div></div>
+  <div class="cell"><div class="mark"><object data="atmos/option-2-satellite-arc.svg" type="image/svg+xml"></object></div><div class="row"><span class="num">02</span><span class="name">Satellite over horizon</span></div></div>
+  <div class="cell"><div class="mark"><object data="stormgauge/option-2-hydrograph-spike.svg" type="image/svg+xml"></object></div><div class="row"><span class="num">02</span><span class="name">Storm hydrograph</span></div></div>
+
+  <!-- Row 3 -->
+  <div class="cell"><div class="mark"><object data="pluviometrics/option-3-calibrated-drop.svg" type="image/svg+xml"></object></div><div class="row"><span class="num">03</span><span class="name">Calibrated drop</span></div></div>
+  <div class="cell"><div class="mark"><object data="atmos/option-3-atmospheric-layers.svg" type="image/svg+xml"></object></div><div class="row"><span class="num">03</span><span class="name">Atmospheric layers</span></div></div>
+  <div class="cell"><div class="mark"><object data="stormgauge/option-3-channel-cross-section.svg" type="image/svg+xml"></object></div><div class="row"><span class="num">03</span><span class="name">Channel cross-section</span></div></div>
+
+  <!-- Row 4 -->
+  <div class="cell"><div class="mark"><object data="pluviometrics/option-4-impact-rings.svg" type="image/svg+xml"></object></div><div class="row"><span class="num">04</span><span class="name">Drop impact rings</span></div></div>
+  <div class="cell"><div class="mark"><object data="atmos/option-4-cyclone-spiral.svg" type="image/svg+xml"></object></div><div class="row"><span class="num">04</span><span class="name">Cyclone spiral</span></div></div>
+  <div class="cell"><div class="mark"><object data="stormgauge/option-4-gauge-dial.svg" type="image/svg+xml"></object></div><div class="row"><span class="num">04</span><span class="name">Gauge dial</span></div></div>
+
+  <!-- Row 5 -->
+  <div class="cell"><div class="mark"><object data="pluviometrics/option-5-intensity-bars.svg" type="image/svg+xml"></object></div><div class="row"><span class="num">05</span><span class="name">Hyetograph bars</span></div></div>
+  <div class="cell"><div class="mark"><object data="atmos/option-5-doppler-pulse.svg" type="image/svg+xml"></object></div><div class="row"><span class="num">05</span><span class="name">Radar pulse</span></div></div>
+  <div class="cell"><div class="mark"><object data="stormgauge/option-5-manhole-grate.svg" type="image/svg+xml"></object></div><div class="row"><span class="num">05</span><span class="name">Stormwater grate</span></div></div>
+
+  <!-- Row 6 -->
+  <div class="cell"><div class="mark"><object data="pluviometrics/option-6-precision-target.svg" type="image/svg+xml"></object></div><div class="row"><span class="num">06</span><span class="name">Precision target</span></div></div>
+  <div class="cell"><div class="mark"><object data="atmos/option-6-cloud-bolt.svg" type="image/svg+xml"></object></div><div class="row"><span class="num">06</span><span class="name">Cloud + bolt</span></div></div>
+  <div class="cell"><div class="mark"><object data="stormgauge/option-6-catchment-funnel.svg" type="image/svg+xml"></object></div><div class="row"><span class="num">06</span><span class="name">Catchment converging</span></div></div>
+
+  <!-- Row 7: creative picks -->
+  <div class="cell pick"><div class="mark"><object data="pluviometrics/option-7-creative-pick.svg" type="image/svg+xml"></object></div><div class="row"><span class="num">07</span><span class="name">Drop holding a hydrograph</span></div></div>
+  <div class="cell pick"><div class="mark"><object data="atmos/option-7-creative-pick.svg" type="image/svg+xml"></object></div><div class="row"><span class="num">07</span><span class="name">Forecast cone</span></div></div>
+  <div class="cell pick"><div class="mark"><object data="stormgauge/option-7-creative-pick.svg" type="image/svg+xml"></object></div><div class="row"><span class="num">07</span><span class="name">Pipe with measured level</span></div></div>
+</div>
+
+<footer>
+  Single solid colour <code style="color:#1f7a8c">#1f7a8c</code>. Stroke-only marks, 400×400 viewBox. Highlighted row is the creative pick per brand.
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none" stroke="#1f7a8c" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+  <title>Pluvio Stormgauge — Catchment converging to outlet</title>
+  <path d="M 60 100 C 120 150, 170 210, 200 280" stroke-width="6"/>
+  <path d="M 130 80 C 160 150, 185 220, 200 280" stroke-width="5"/>
+  <path d="M 200 80 L 200 280" stroke-width="5"/>
+  <path d="M 270 80 C 240 150, 215 220, 200 280" stroke-width="5"/>
+  <path d="M 340 100 C 280 150, 230 210, 200 280" stroke-width="6"/>
+  <path d="M 200 290 C 178 320, 178 355, 200 355 C 222 355, 222 320, 200 290 Z" stroke-width="6"/>
+</svg>

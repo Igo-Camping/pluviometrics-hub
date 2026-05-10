@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none" stroke="#1f7a8c" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+  <title>Pluvio Stormgauge — Storm-event hydrograph</title>
+  <line x1="80" y1="80" x2="80" y2="320" stroke-width="4"/>
+  <line x1="80" y1="320" x2="350" y2="320" stroke-width="4"/>
+  <path d="M 90 295 L 130 290 L 165 285 C 178 280, 185 110, 205 100 C 225 90, 235 200, 265 245 C 295 285, 320 298, 345 302" stroke-width="7"/>
+  <line x1="74" y1="200" x2="86" y2="200" stroke-width="3"/>
+  <line x1="74" y1="140" x2="86" y2="140" stroke-width="3"/>
+  <line x1="205" y1="316" x2="205" y2="328" stroke-width="3"/>
+  <line x1="285" y1="316" x2="285" y2="328" stroke-width="3"/>
+</svg>

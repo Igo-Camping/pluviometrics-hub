@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none" stroke="#1f7a8c" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+  <title>Pluviometrics — Drops in formation</title>
+  <path d="M 200 90 C 165 140, 165 215, 200 215 C 235 215, 235 140, 200 90 Z"/>
+  <path d="M 130 175 C 105 215, 105 270, 130 270 C 155 270, 155 215, 130 175 Z"/>
+  <path d="M 270 175 C 245 215, 245 270, 270 270 C 295 270, 295 215, 270 175 Z"/>
+  <line x1="80" y1="320" x2="320" y2="320" stroke-width="4"/>
+  <line x1="100" y1="320" x2="100" y2="332" stroke-width="3"/>
+  <line x1="140" y1="320" x2="140" y2="332" stroke-width="3"/>
+  <line x1="180" y1="320" x2="180" y2="332" stroke-width="3"/>
+  <line x1="220" y1="320" x2="220" y2="332" stroke-width="3"/>
+  <line x1="260" y1="320" x2="260" y2="332" stroke-width="3"/>
+  <line x1="300" y1="320" x2="300" y2="332" stroke-width="3"/>
+</svg>

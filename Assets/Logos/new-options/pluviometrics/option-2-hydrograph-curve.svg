@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none" stroke="#1f7a8c" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+  <title>Pluviometrics — Drop over hydrograph</title>
+  <path d="M 220 80 C 200 110, 200 150, 220 150 C 240 150, 240 110, 220 80 Z"/>
+  <path d="M 60 320 C 130 320, 160 200, 220 180 C 290 165, 320 320, 360 320" stroke-width="7"/>
+  <line x1="40" y1="320" x2="380" y2="320" stroke-width="3"/>
+  <line x1="100" y1="320" x2="100" y2="330" stroke-width="3"/>
+  <line x1="180" y1="320" x2="180" y2="330" stroke-width="3"/>
+  <line x1="260" y1="320" x2="260" y2="330" stroke-width="3"/>
+  <line x1="340" y1="320" x2="340" y2="330" stroke-width="3"/>
+</svg>

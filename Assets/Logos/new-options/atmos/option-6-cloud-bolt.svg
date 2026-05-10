@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none" stroke="#1f7a8c" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+  <title>Pluvio Atmos — Cloud with precision bolt</title>
+  <path d="M 110 245
+           C 80 245, 80 205, 110 205
+           C 110 170, 150 150, 175 170
+           C 195 140, 245 140, 260 175
+           C 295 170, 320 200, 305 235
+           C 320 240, 320 265, 290 265
+           L 130 265
+           C 100 265, 100 245, 110 245 Z"/>
+  <path d="M 200 275 L 175 325 L 205 325 L 185 360" stroke-width="7"/>
+</svg>

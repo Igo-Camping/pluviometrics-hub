@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none" stroke="#1f7a8c" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+  <title>Pluvio Stormgauge — Pipe end-on with measured water level</title>
+  <circle cx="180" cy="200" r="125" stroke-width="9"/>
+  <circle cx="180" cy="200" r="100" stroke-width="3"/>
+  <line x1="100" y1="240" x2="260" y2="240" stroke-width="6"/>
+  <path d="M 110 240 Q 130 233, 150 240 Q 170 247, 190 240 Q 210 233, 230 240 Q 250 247, 260 240" stroke-width="3"/>
+  <line x1="335" y1="170" x2="335" y2="290" stroke-width="3"/>
+  <line x1="330" y1="170" x2="340" y2="170" stroke-width="3"/>
+  <line x1="330" y1="205" x2="340" y2="205" stroke-width="3"/>
+  <line x1="328" y1="240" x2="345" y2="240" stroke-width="5"/>
+  <line x1="330" y1="275" x2="340" y2="275" stroke-width="3"/>
+  <line x1="260" y1="240" x2="328" y2="240" stroke-width="2" stroke-dasharray="4 5"/>
+</svg>
